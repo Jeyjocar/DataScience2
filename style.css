@@ -1,0 +1,8 @@
+[data-testid=metric-container]{
+    box-shadow: 0 0 0 2px grey;
+    padding: 20px;
+}
+
+.plot-container >div{
+    box-shadow: 0 0 0 2px gradient(linear);
+}

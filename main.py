@@ -13,7 +13,7 @@ st.set_page_config(page_title="Ventas", page_icon="🛒", layout="wide")
 
 st.header("ApiAnalisisDatosVentas")
 st.markdown("##")
-with open("Style.css") as file:
+with open("style.css") as file:
     st.markdown(f'<style> {file.read()}</style>', unsafe_allow_html=True)
 theme_plotly = None
 
